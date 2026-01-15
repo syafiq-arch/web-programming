@@ -4,11 +4,11 @@
 $sum = null;
 
 if ($_SERVER["REQUEST_METHOD"] === "POST"){
-
+//  mengambil data
     $firstNumber = $_POST['number1'];
     $secondNumber = $_POST['number2'];
     $operator = $_POST['operator'];
-
+mengolah da
     if ($operator == "+") {
         $sum = $firstNumber + $secondNumber;
     }
